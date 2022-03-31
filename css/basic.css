@@ -1,0 +1,36 @@
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    font-size: 62.5%;
+	background-color: #fff;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.content {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	width: var(--width-container);
+}

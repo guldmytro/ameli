@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat-Regular'),
+         local('Montserrat Regular'),
+         url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat-Bold'),
+         local('Montserrat Bold'),
+         url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+         url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Serif';
+    src: local('LiberationSerif-Regular'),
+         local('LiberationSerif Regular'),
+         url('../fonts/LiberationSerif-Regular.woff2') format('woff2'),
+         url('../fonts/LiberationSerif-Regular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
