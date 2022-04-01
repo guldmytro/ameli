@@ -27,3 +27,13 @@
     font-weight: 400;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'GallientRegular';
+    src: local('GallientRegular'),
+         local('Gallient Regular'),
+         url('../fonts/GallientRegular.woff2') format('woff2'),
+         url('../fonts/GallientRegular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}

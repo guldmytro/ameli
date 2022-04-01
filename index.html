@@ -7,14 +7,155 @@
     <title>Home - Ameli</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
+<body class="home">
 <div class="wrapper">
     <div class="content">
-        <div class="container"></div>
+        <header class="header">
+            <div class="container">
+                <div class="header-row">
+                    <a href="./index.html" class="header-logo" aria-label="home page">
+                        <picture>
+                            <source srcset="./img/logo.webp">
+                            <img src="./img/logo.png" alt="logo" class="header-logo__img" loading="lazy" width="472" height="472">
+                        </picture>
+                    </a>
+                    <ul class="header-menu">
+                        <li><a href="./shop.html">Shop</a></li>
+                        <li><a href="./contact.html">Contacts</a></li>
+                        <li><a href="./delivery.html">Delivery</a></li>
+                        <li><a href="./about.html">About us</a></li>
+                    </ul>
+                    <div class="header-controls">
+                        <a class="header-controls__link header-link header-link_add-to-favorite" href="./favorite.html" aria-label="favorite page">
+                            <img class="header-link__img" src="./img/icon-heart.png" alt="heart" loading="lazy" width="64" height="54">
+                        </a>
+                        <button type="button" class="header-controls__link header-link header-link_search" aria-label="open search">
+                            <img class="header-link__img" src="./img/icon-search.png" alt="search" loading="lazy" width="64" height="64">
+                        </button>
+                        <a class="header-controls__link header-link header-link_account" href="./account.html" aria-label="account page">
+                            <img class="header-link__img" src="./img/icon-user.png" alt="user" loading="lazy" width="64" height="64">
+                        </a>
+                        <a class="header-controls__link header-link header-link_cart" href="./account.html" aria-label="cart page">
+                            <img class="header-link__img" src="./img/icon-cart.png" alt="cart" loading="lazy" width="64" height="54">
+                        </a>
+                    </div>
+                    <ul class="header-socials">
+                        <li class="header-socials__item socials-item">
+                            <a href="#" class="socials-item__link" aria-label="facebook">
+                                <img class="socials-item__img" src="./img/icon-facebook.png" alt="facebook" loading="lazy" width="32" height="32">
+                            </a>
+                        </li>
+                        <li class="header-socials__item socials-item">
+                            <a href="#" class="socials-item__link" aria-label="instagram">
+                                <img class="socials-item__img" src="./img/icon-instagram.png" alt="instagram" loading="lazy" width="32" height="32">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- /.header -->
+        <main class="main-home">
+            <div class="container">
+                <div class="main-home__row">
+                    <ul class="main-terms">
+                        <li class="main-terms__item term-item">
+                            <a href="./shop.html" class="term-item__link" aria-label="rings page">
+                                <img src="./img/term-1.jpg" class="term-item__img" alt="rings">
+                                <h2 class="term-item__title">Rings</h2>
+                            </a>
+                        </li>
+                        <li class="main-terms__item term-item">
+                            <a href="./shop.html" class="term-item__link" aria-label="earings page">
+                                <img src="./img/term-2.jpg" class="term-item__img" alt="earings">
+                                <h2 class="term-item__title">Earings</h2>
+                            </a>
+                        </li>
+                        <li class="main-terms__item term-item">
+                            <a href="./shop.html" class="term-item__link" aria-label="pendants page">
+                                <img src="./img/term-3.jpg" class="term-item__img" alt="pendants">
+                                <h2 class="term-item__title">Pendants</h2>
+                            </a>
+                        </li>
+                        <li class="main-terms__item term-item">
+                            <a href="./shop.html" class="term-item__link" aria-label="bracelets page">
+                                <img src="./img/term-4.jpg" class="term-item__img" alt="bracelets">
+                                <h2 class="term-item__title">Bracelets</h2>
+                            </a>
+                        </li>
+                    </ul>
+                    <h1 class="main-home__title">
+                        <span>new</span>
+                        <strong>collection</strong>
+                    </h1>
+                    <button type="button" aria-label="scroll down" class="main-home__scroll">
+                        <img src="./img/arrow-down.png" alt="arrow" loading="lazy">
+                    </button>
+                </div>
+            </div>
+        </main>
+        <!-- /.main-home -->
+        <section class="designers">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-header__title">Designers</h2>
+                </div>
+                <ul class="designers-group">
+                    <li class="designers-group__item designers-item">
+                        <a href="./shop.html" class="designers-item__link">
+                            <img src="./img/d-1.jpg" alt="ring">
+                            <h3 class="designer-item__title">
+                                <span>Rings</span>
+                            </h3>
+                        </a>
+                    </li>
+                    <li class="designers-group__item designers-item">
+                        <a href="./shop.html" class="designers-item__link">
+                            <img src="./img/d-2.jpg" alt="ring">
+                            <h3 class="designer-item__title">
+                                <span>Rings</span>
+                            </h3>
+                        </a>
+                    </li>
+                    <li class="designers-group__item designers-item">
+                        <a href="./shop.html" class="designers-item__link">
+                            <img src="./img/d-3.jpg" alt="ring">
+                            <h3 class="designer-item__title">
+                                <span>Rings</span>
+                            </h3>
+                        </a>
+                    </li>
+                    <li class="designers-group__item designers-item">
+                        <a href="./shop.html" class="designers-item__link">
+                            <img src="./img/d-4.jpg" alt="ring">
+                            <h3 class="designer-item__title">
+                                <span>Rings</span>
+                            </h3>
+                        </a>
+                    </li>
+                    <li class="designers-group__item designers-item">
+                        <a href="./shop.html" class="designers-item__link">
+                            <img src="./img/d-1.jpg" alt="ring">
+                            <h3 class="designer-item__title">
+                                <span>Rings</span>
+                            </h3>
+                        </a>
+                    </li>
+                    <li class="designers-group__item designers-item">
+                        <a href="./shop.html" class="designers-item__link">
+                            <img src="./img/d-2.jpg" alt="ring">
+                            <h3 class="designer-item__title">
+                                <span>Rings</span>
+                            </h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- /.designers -->
     </div>
     <footer class="footer">
         <div class="container">
-
         </div>
     </footer>
 </div>

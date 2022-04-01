@@ -1,0 +1,112 @@
+.main-home {
+    position: relative;
+    padding-top: 14rem;
+    padding-bottom: 10rem;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../img/bg-first-screen.jpg') no-repeat center top / cover;
+    background: url('../img/bg-first-screen.webp') no-repeat center top / cover;
+}
+
+.main-home__row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.main-terms {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 33rem;
+}
+
+.main-terms__item {
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.term-item__link {
+    display: block;
+    height: 0;
+    padding-top: 48%;
+    position: relative;
+}
+
+.term-item__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.term-item__title {
+    font-family: 'Liberation Serif';
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 3rem;
+    transform: translateY(-50%);
+    color: var(--color-text-invert);
+}
+
+.term-item__title::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    display: block;
+    width: 3.2rem;
+    height: 2px;
+    background-color: var(--color-text-invert);
+    transition: var(--transition);
+}
+
+.term-item__link:hover .term-item__title::before {
+    width: 100%;
+}
+
+.main-home__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'GallientRegular';
+    font-weight: 400;
+    color: var(--color-text-invert);
+    transform: translateX(-50%);
+    line-height: 1;
+}
+
+.main-home__title span {
+    font-size: 30rem;
+    position: absolute;
+    opacity: 0.2;
+    bottom: 32%;
+    left: 50%;
+    transform: translateX(-60%);
+}
+
+.main-home__title strong {
+    position: relative;
+    font-weight: 400;
+    font-size: 13rem;
+    letter-spacing: 0.05em;
+}
+
+.main-home__scroll {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-home__scroll img {
+    filter: invert(1);
+}

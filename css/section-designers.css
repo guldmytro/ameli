@@ -1,0 +1,49 @@
+.designers-group {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    list-style: none;
+    gap: 1rem;
+}
+
+.designers-group__item {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.designers-item__link {
+    display: block;
+    height: 0;
+    position: relative;
+    padding-top: 80%;
+}
+
+.designers-item__link img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.designer-item__title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-text-invert);
+    font-weight: 400;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.designer-item__title:hover {
+    opacity: 1;
+}

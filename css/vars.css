@@ -1,3 +1,6 @@
 :root {
     --width-container: 1320px;
+    --color-text-invert: #fff;
+    --transition: width 250ms ease, opacity 250ms ease;
+    --shadow: 0.2rem 0.3rem 7rem 0 rgba(113, 34, 33, 0.16);
 }

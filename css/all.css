@@ -3,5 +3,7 @@
 @import url('vars.css');
 @import url('fonts.css');
 @import url('basic.css');
-
-
+@import url('header.css');
+@import url('backgrounds.css');
+@import url('main-home.css');
+@import url('section-designers.css');
