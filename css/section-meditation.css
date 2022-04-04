@@ -1,0 +1,44 @@
+.meditation-article {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+.meditation-article__content {
+    flex: 0 0 50%;
+    background-color: #e7cac2;
+    background-image: radial-gradient(ellipse 45% 45% at calc(100% + 1rem) center, #e5e3e2, #e7cac2);
+    padding: 8rem 4rem 8rem 6rem;
+    font-size: 1.8rem;
+}
+
+.meditation-article__thumb {
+    flex: 0 0 50%;
+    min-height: 65rem;
+}
+
+.meditation-article__thumb img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.meditation-article__content h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.meditation-article__content > * + * {
+    margin-top: 2em;
+}
+
+.meditation-article__content li {
+    list-style-position: inside;
+}
+
+.meditation-article__content li + li {
+    margin-top: 1em;
+}

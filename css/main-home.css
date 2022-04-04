@@ -5,8 +5,8 @@
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url('../img/bg-first-screen.jpg') no-repeat center top / cover;
-    background: url('../img/bg-first-screen.webp') no-repeat center top / cover;
+    background: url('../img/bg-first-screen.jpg') no-repeat center top / cover fixed;
+    background: url('../img/bg-first-screen.webp') no-repeat center top / cover fixed;
 }
 
 .main-home__row {
