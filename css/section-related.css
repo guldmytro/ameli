@@ -1,0 +1,11 @@
+.related-slider {
+    display: block;
+}
+
+.related-slider .product-group__item {
+    width: 33.333333%;
+}
+
+.flickity-button {
+    border: 1px solid var(--color-primary);
+}

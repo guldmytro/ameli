@@ -1,0 +1,59 @@
+.shop-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3.5rem;
+}
+
+.shop-filters__group {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.4rem;
+    padding: 0.4rem;
+    border: 1px solid var(--color-secondary);
+}
+
+.filter__wrapper {
+    position: relative;
+}
+
+.filters__item {
+    position: relative;
+    padding: var(--padding-select);
+    height: 4.2rem;
+    border: none;
+    background-color: var(--color-secondary);
+    appearance: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.shop-filters__order::after,
+.filter__wrapper::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 1.2rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url('../img/icon-arrow.png') no-repeat center / contain;
+    transform: translateY(-40%);
+    pointer-events: none;
+}
+
+.shop-filters__order {
+    position: relative;
+}
+
+.shop-order {
+    appearance: none;
+    box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.05);
+    height: 4.2rem;
+    line-height: 4.2rem;
+    border: none;
+    padding: var(--padding-select);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+

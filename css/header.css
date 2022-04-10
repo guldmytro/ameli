@@ -7,6 +7,14 @@
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+body:not(.home) .header {
+    position: sticky;
+    top: 0;
+    background: url('../img/bg-first-screen.jpg') no-repeat center / cover;
+    background: url('../img/bg-first-screen.webp') no-repeat center top / cover;
+    z-index: 2;
+}
+
 .header-row {
     padding: 0.5rem 0;
     display: flex;

@@ -1,12 +1,15 @@
-.bestsellers-item {
+.bestsellers-item,
+.accordeon-item {
     border-top: var(--border);
 }
 
-.bestsellers-item:last-of-type {
+.bestsellers-item:last-of-type,
+.accordeon-item:last-of-type {
     border-bottom: var(--border);
 }
 
-.bestsellers-item__header {
+.bestsellers-item__header,
+.accordeon-item__header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,13 +28,21 @@
 .product-group {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    column-gap: 1.4rem;
     row-gap: 6rem;
     list-style: none;
+    margin-top: -0.7rem;
+    margin-right: -0.7rem;
+    margin-left: -0.7rem;
 }
 
 .bestsellers-item .product-group {
     padding-bottom: 3rem;
+}
+
+.product-item-inner {
+    padding-top: 0.7rem;
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
 }
 
 .product-item__thumb {
