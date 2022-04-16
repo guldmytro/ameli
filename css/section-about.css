@@ -1,0 +1,116 @@
+.about {
+    margin-top: calc(var(--gap-content) * (-1));
+    overflow: hidden;
+}
+
+.about-section {
+    background-color: #f3e8e5;
+}
+
+.about-row {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.about .section-header {
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    width: 100%;
+    opacity: 0.5;
+    padding: 0;
+    z-index: 2;
+}
+
+.about .section-header__title {
+    font-family: 'GallientRegular', sans-serif;
+    font-size: 12rem;
+    text-transform: none;
+}
+
+.about .section-header span:first-child {
+    position: absolute;
+    right: calc(50% + 0.25ch);
+    color: #8b8684;
+}
+
+.about .section-header span:last-child {
+    position: absolute;
+    left: calc(50% + 0.25ch);
+    color: #898a8c;
+}
+
+.about-text {
+    flex: 0 0 50%;
+    align-self: center;
+    padding: 30rem 3rem 15rem 0;
+}
+
+.about-bg {
+    flex: 0 0 50%;
+    position: relative;
+}
+
+.about-bg::after {
+    content: '';
+    display: block;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 18rem;
+    width: 50%;
+    background-color: #bdbaba;
+    transform: translateX(-50%) rotate(-35deg);
+}
+
+.about-bg img {
+    position: absolute;
+    height: 100%;
+    max-width: unset;
+}
+
+.about-text__title {
+    position: relative;
+    display: inline-block;
+    padding-left: 1ch;
+    text-transform: uppercase;
+    font-family: 'Liberation Serif', serif;
+    font-size: 4.2rem;
+    font-weight: 400;
+}
+
+.about-text__title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: block;
+    height: 1px;
+    width: 50%;
+    background-color: var(--color-text);
+}
+
+.about-text__subtitle {
+    margin-top: 2em;
+    font-size: 2.6rem;
+}
+
+.about-text__desc {
+    margin-top: 1em;
+    font-size: 1.7rem;
+    max-width: 55rem;
+    line-height: 1.5;
+}
+
+.about-content {
+    padding-top: 6rem;
+}
+
+.about-content__text {
+    column-count: 2;
+    gap: 5rem;
+    break-inside: avoid;
+    font-size: 1.9rem;
+    line-height: 1.4;
+}

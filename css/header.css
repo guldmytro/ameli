@@ -3,7 +3,7 @@
     top: 0;
     right: 0;
     left: 0;
-    z-index: 2;
+    z-index: 10;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -12,7 +12,7 @@ body:not(.home) .header {
     top: 0;
     background: url('../img/bg-first-screen.jpg') no-repeat center / cover;
     background: url('../img/bg-first-screen.webp') no-repeat center top / cover;
-    z-index: 2;
+    z-index: 10;
 }
 
 .header-row {

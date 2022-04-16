@@ -1,0 +1,75 @@
+.contact-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.contact-row .col {
+    flex: 0 0 50%;
+}
+
+.contact-content {
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+.contact-content > * + * {
+    margin-top: 1em;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(6, 5.6rem);
+    padding: 4rem;
+    border-radius: 2rem;
+    background-color: #f4e6e2;
+    row-gap: 1rem;
+    column-gap: 1.5rem;
+}
+
+.contact-form__title {
+    grid-column: 1 / -1;
+}
+
+.contact-form__fieldset {
+    padding: 0;
+    border: none;
+}
+
+textarea.contact-form__input {
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+    resize: none;
+    display: block;
+    height: 100%;
+    border-radius: 2.8rem;
+}
+
+.contact-form__fieldset:nth-of-type(1) {
+    grid-row: 2;
+}
+
+.contact-form__fieldset:nth-of-type(2) {
+    grid-row: 3;
+}
+
+.contact-form__fieldset:nth-of-type(3) {
+    grid-row: 4;
+}
+
+.contact-form__fieldset:nth-of-type(4) {
+    grid-row: 5;
+}
+
+.contact-form__fieldset:nth-last-child(2) {
+    grid-row: auto / span 3;
+}
+
+.contact-form__fieldset:last-child {
+    grid-column: 1 / -1;
+}
+
+.contact-form__submit {
+    width: 100%;
+}

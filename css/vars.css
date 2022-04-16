@@ -13,4 +13,5 @@
     --border: 2px solid #dddbdb;
     --padding-select: 0 3rem 0 1.5rem;
     --filter: brightness(0) saturate(100%) invert(16%) sepia(64%) saturate(1666%) hue-rotate(332deg) brightness(89%) contrast(95%);
+    --gap-content: 12rem;
 }

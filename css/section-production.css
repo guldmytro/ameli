@@ -1,0 +1,49 @@
+.production-row {
+    display: flex;
+    flex-flow: row nowrap;    
+}
+
+.production-header {
+    flex: 0 0 33.3333%;
+    position: relative;
+    overflow: hidden;
+}
+
+.production-header__title {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    font-family: 'Liberation Serif', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.production-header__title span:first-child {
+    position: absolute;
+    left: 40%;
+    font-size: 7rem;
+    transform: translateY(-5rem);
+}
+
+.production-header__title span:first-child::before {
+    position: absolute;
+    left: 0;
+    top: calc(100%);
+    content: '';
+    display: block;
+    height: 2px;
+    width: 400px;
+    background-color: var(--color-text);
+}
+
+.production-header__title span:last-child {
+    position: absolute;
+    left: 0;
+    font-size: 4.2rem;
+    transform: translateY(5rem);
+}
+
+.production-video {
+    flex-grow: 1;
+}

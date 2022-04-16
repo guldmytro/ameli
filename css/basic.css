@@ -23,7 +23,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
-	row-gap: 12rem;
+	row-gap: var(--gap-content);
 }
 
 .content {
@@ -31,7 +31,7 @@ body {
 	display: grid;
 	grid-template-columns: minmax(0, 1fr);
 	align-items: start;
-	row-gap: 12rem;
+	row-gap: var(--gap-content);
 }
 
 .footer {
@@ -48,6 +48,7 @@ body {
 	width: var(--width-container);
 }
 
+video,
 img {
 	display: block;
 	max-width: 100%;
