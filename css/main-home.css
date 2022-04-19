@@ -7,6 +7,7 @@
     min-height: 100vh;
     background: url('../img/bg-first-screen.jpg') no-repeat center top / cover fixed;
     background: url('../img/bg-first-screen.webp') no-repeat center top / cover fixed;
+    overflow: hidden;
 }
 
 .main-home__row {

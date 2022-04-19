@@ -63,3 +63,12 @@
     });
 })();
 
+// mobile menu
+(function() {
+    const mobileMenuBtn = $('.mobile-menu-btn');
+    const headerMenu = $('.header-menu');
+    mobileMenuBtn.on('click', function() {
+        headerMenu.toggleClass('active');
+    });
+})();
+
