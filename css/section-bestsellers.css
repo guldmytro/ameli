@@ -25,6 +25,13 @@
     gap: 2rem;
 }
 
+.bestsellers-item__title button {
+    text-transform: inherit;
+    border: none;
+    background-color: inherit;
+    font-weight: inherit;
+}
+
 .product-group {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));

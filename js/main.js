@@ -43,6 +43,7 @@
     });
     closeSearch.on('click', function() {
         searchBar.slideUp(150);
+        openSearch.focus();
     });
 })();
 

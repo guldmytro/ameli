@@ -74,6 +74,11 @@ body:not(.home) .header {
     list-style: none;
 }
 
+.socials-item__link {
+    display: block;
+    border-radius: 50%;
+}
+
 .socials-item__img {
     filter: invert(1);
 }

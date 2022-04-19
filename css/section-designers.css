@@ -49,6 +49,7 @@
     transition: var(--transition);
 }
 
+.designers-item__link.focus-visible:focus .designer-item__title,
 .designer-item__title:hover {
     opacity: 1;
 }

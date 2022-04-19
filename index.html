@@ -56,13 +56,13 @@
             </div>
             <div class="header-search">
                 <div class="container">
-                    <button type="button" class="header-search__btn" aria-label="close search form">
-                        <span></span>
-                    </button>
                     <form action="." method="get" class="form-search">
                         <input type="search" class="form-search__input" name="s" placeholder="Product">
                         <button type="submit" class="form-search__submit btn">Search</button>
                     </form>
+                    <button type="button" class="header-search__btn" aria-label="close search form">
+                        <span></span>
+                    </button>
                 </div>
             </div>
         </header>
@@ -211,7 +211,7 @@
                 <div class="bestsellers-group">
                     <div class="bestsellers-group__item bestsellers-item">
                         <div class="bestsellers-item__header active">
-                            <h3 class="bestsellers-item__title">New</h3>
+                            <h3 class="bestsellers-item__title"><button type="button">New</button></h3>
                             <span class="btn_bestsellers bestsellers-item__btn"></span>
                         </div>
                         <div class="bestsellers-item__content">
@@ -269,7 +269,7 @@
                     </div>
                     <div class="bestsellers-group__item bestsellers-item">
                         <div class="bestsellers-item__header">
-                            <h3 class="bestsellers-item__title">Gifts for February 14</h3>
+                            <h3 class="bestsellers-item__title"><button type="button">Gifts for February 14</button></h3>
                             <span class="btn_bestsellers bestsellers-item__btn"></span>
                         </div>
                         <div class="bestsellers-item__content">
@@ -327,7 +327,7 @@
                     </div>
                     <div class="bestsellers-group__item bestsellers-item">
                         <div class="bestsellers-item__header">
-                            <h3 class="bestsellers-item__title">Stylist's choice</h3>
+                            <h3 class="bestsellers-item__title"><button type="button">Stylist's choice</button></h3>
                             <span class="btn_bestsellers bestsellers-item__btn"></span>
                         </div>
                         <div class="bestsellers-item__content">
@@ -468,6 +468,7 @@
     </footer>
 </div>
 <!-- /.wrapper -->
+<script src="./js/focus-visible.min.js"></script>
 <script src="./js/jquery.3.6.0.min.js"></script>
 <script src="./js/flickity.min.js"></script>
 <script src="./js/main.js"></script>

@@ -167,6 +167,14 @@
     font-size: 1.6rem;
     text-transform: uppercase;
 }
+
+.accordeon-item__title button {
+    text-transform: inherit;
+    border: none;
+    background-color: inherit;
+    font-weight: inherit;   
+}
+
 .accordeon-item__description {
     padding-bottom: 1.4rem;
     font-size: 1.5rem;

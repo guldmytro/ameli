@@ -1,0 +1,17 @@
+input:focus,
+textarea:focus,
+a:focus,
+select:focus,
+button:focus {
+    outline: 2px solid cornflowerblue;
+    outline-offset: 2px;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: none;
+}
+
+.term-item__link.focus-visible:focus img {
+    outline: 2px solid cornflowerblue;
+    outline-offset: -10px;
+}
