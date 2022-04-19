@@ -1,0 +1,46 @@
+.section-header {
+	padding-bottom: 3.5rem;
+}
+
+.section-header_screen-reader {
+	visibility: hidden;
+	pointer-events: none;
+	z-index: -1;
+	position: absolute;
+}
+
+.section-header__title {
+	font-size: 4.2rem;
+	font-family: 'Liberation Serif', serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.section-header__title_shadow {
+    position: relative;
+}
+
+[data-title] {
+    position: relative;
+}
+
+[data-title]::before {
+    content: attr(data-title);
+    display: inline-block;
+    padding-left: 1ch;
+    position: absolute;
+    bottom: 0;
+    font-size: 14rem;
+    font-family: 'GallientRegular', serif;
+    z-index: 1;
+    line-height: 0.75;
+    text-transform: lowercase;
+    opacity: 0.09;
+    pointer-events: none;
+}
+
+[data-title] span {
+    position: relative;
+    z-index: 2;
+}

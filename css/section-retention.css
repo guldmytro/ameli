@@ -1,0 +1,17 @@
+.retention-content {
+    font-size: 1.8rem;
+    max-width: 95rem;
+}
+
+.retention-content > * + * {
+    margin-top: 1em;
+}
+
+.retention-content h2,
+.retention-content h3,
+.retention-content h4,
+.retention-content h5,
+.retention-content h6 {
+    font-family: 'Liberation Serif', serif;
+    font-weight: 400;
+}

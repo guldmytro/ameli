@@ -1,0 +1,30 @@
+.breadcrumbs,
+.breadcrumbs + * {
+    margin-top: calc(var(--gap-content) * (-1));
+}
+
+.breadcrumbs-group {
+    padding: 2.5rem 0;
+    display: flex;
+    flex: row wrap;
+    justify-content: flex-end;
+    column-gap: 3rem;
+    row-gap: 1.5rem;
+}
+
+.breadcrumbs-group a {
+    position: relative;
+    opacity: 0.5;
+}
+
+.breadcrumbs-group a::after {
+    content: '';
+    position: absolute;
+    right: calc(-1.5rem + 1px);
+    width: 2px;
+    height: 100%;
+    background-color: var(--color-text);
+    opacity: inherit;
+    pointer-events: none;
+}
+

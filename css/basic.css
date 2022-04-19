@@ -58,31 +58,22 @@ img {
 a {
 	text-decoration: none;
 	color: inherit;
+	transition: var(--transition);
+}
+
+a:not(.btn):hover {
+	color: var(--color-secondary);
 }
 
 button {
 	cursor: pointer;
 }
 
-.section-header {
-	padding-bottom: 3.5rem;
-}
-
-.section-header_screen-reader {
-	visibility: hidden;
-	pointer-events: none;
-	z-index: -1;
-	position: absolute;
-}
-
-.section-header__title {
-	font-size: 4.2rem;
-	font-family: 'Liberation Serif', serif;
-	font-weight: normal;
-	text-transform: uppercase;
-	margin: 0;
-}
-
 select {
 	cursor: pointer;
+}
+
+.not-found__description a {
+	color: var(--color-primary-lighter);
+	font-weight: 700;
 }

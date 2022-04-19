@@ -6,12 +6,13 @@
     --color-text: #161616;
     --color-text-invert: #fff;
     --color-bg: #fbf7f7;
-    --transition: width 250ms ease, opacity 250ms ease;
+    --transition: width 200ms ease, opacity 200ms ease, color 200ms ease;
     --shadow: 0.2rem 0.3rem 7rem 0 rgba(113, 34, 33, 0.16);
     --shadow-product: 0 0 1rem rgba(0, 0, 0, 0.05);
     --border-radius: 0.5rem;
     --border: 2px solid #dddbdb;
     --padding-select: 0 3rem 0 1.5rem;
     --filter: brightness(0) saturate(100%) invert(16%) sepia(64%) saturate(1666%) hue-rotate(332deg) brightness(89%) contrast(95%);
+    --filter-secondary: invert(81%) sepia(8%) saturate(519%) hue-rotate(326deg) brightness(96%) contrast(107%);
     --gap-content: 12rem;
 }

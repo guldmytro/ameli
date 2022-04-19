@@ -108,5 +108,8 @@
 }
 
 .main-home__scroll img {
+    width: 3.2rem;
+    height: 3.2rem;
+    object-fit: contain;
     filter: invert(1);
 }

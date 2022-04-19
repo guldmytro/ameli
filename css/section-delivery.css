@@ -1,0 +1,17 @@
+.delivery-content {
+    font-size: 1.8rem;
+    max-width: 95rem;
+}
+
+.delivery-content > * + * {
+    margin-top: 1em;
+}
+
+.delivery-content h2,
+.delivery-content h3,
+.delivery-content h4,
+.delivery-content h5,
+.delivery-content h6 {
+    font-family: 'Liberation Serif', serif;
+    font-weight: 400;
+}

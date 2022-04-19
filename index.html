@@ -54,6 +54,17 @@
                     </ul>
                 </div>
             </div>
+            <div class="header-search">
+                <div class="container">
+                    <button type="button" class="header-search__btn" aria-label="close search form">
+                        <span></span>
+                    </button>
+                    <form action="." method="get" class="form-search">
+                        <input type="search" class="form-search__input" name="s" placeholder="Product">
+                        <button type="submit" class="form-search__submit btn">Search</button>
+                    </form>
+                </div>
+            </div>
         </header>
         <!-- /.header -->
         <main class="main-home">
@@ -89,14 +100,14 @@
                         <span>new</span>
                         <strong>collection</strong>
                     </h1>
-                    <button type="button" aria-label="scroll down" class="main-home__scroll">
+                    <button type="button" aria-label="scroll down" data-anchor="designers" class="main-home__scroll">
                         <img src="./img/arrow-down.png" alt="arrow" loading="lazy" width="16" height="32">
                     </button>
                 </div>
             </div>
         </main>
         <!-- /.main-home -->
-        <section class="designers">
+        <section id="designers" class="designers">
             <div class="container">
                 <div class="section-header">
                     <h2 class="section-header__title">Designers</h2>
@@ -430,10 +441,10 @@
                     <ul class="footer__payments footer-payments">
                        <li class="footer-payments__item payments-item">
                            <img src="./img/icon-visa.png" alt="visa" class="payments-item__img">
-                       </li> 
+                       </li>
                        <li class="footer-payments__item payments-item">
                             <img src="./img/icon-mastercard.png" alt="mastercard" class="payments-item__img">
-                        </li> 
+                        </li>
                     </ul>
                 </div>
                 <div class="col">
