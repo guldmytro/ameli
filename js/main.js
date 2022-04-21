@@ -72,3 +72,25 @@
     });
 })();
 
+// filters
+(function() {
+    const filterBtn = $('.shop-filters-mobile_btn');
+    const filtersWrapper = $('.shop-filters-wrapper');
+    const filterGroup = $('.shop-filters__group');
+    const filter = $('.filter__wrapper');
+    filterBtn.on('click', function(e) {
+        e.stopPropagation();
+        filtersWrapper.toggleClass('active');
+        filterGroup.slideToggle(200);
+    });
+    filtersWrapper.on('click', function() {
+        if ($(this).hasClass('active')) {
+            filtersWrapper.removeClass('active');
+            filterGroup.slideUp(200);
+        }
+    });
+    filter.on('click', function(e) {
+        e.stopPropagation();
+    });
+})();
+

@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding-bottom: 3.5rem;
+    column-gap: 3rem;
 }
 
 .shop-filters__group {
@@ -55,5 +56,9 @@
     padding: var(--padding-select);
     font-size: 1.3rem;
     font-weight: 700;
+}
+
+.shop-filters-mobile_btn {
+    display: none;
 }
 
